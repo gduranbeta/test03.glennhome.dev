@@ -6,5 +6,4 @@
  * Time: 12:47 PM
  */
 
-# Additional line to test committed change
-echo "Hello world";
+echo "Hello world again";
