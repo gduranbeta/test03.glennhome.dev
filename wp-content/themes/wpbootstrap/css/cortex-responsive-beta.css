@@ -1,0 +1,340 @@
+/* Cortex extra styles */
+
+/* Large desktop */
+
+@media (min-width: 1200px) { 
+
+	.banner .logo{
+		position:absolute;
+		top:48%;
+		margin-top:-160px;
+		margin-left:-90px;
+		left:50%; 
+		text-align:center;
+
+
+}
+ }
+ 
+ @media (max-width: 1200px) { 
+
+	.banner .logo{
+		position:absolute;
+		top:48%;
+		margin-top:-160px;
+		margin-left:-90px;
+		left:53% !important; 
+		text-align:center;
+
+
+}
+
+.banner-menu li a {
+  padding: 14px!important;
+  
+
+}
+
+
+
+ }
+ 
+ 
+
+
+.banner-menu li a {
+  padding: 14px!important;
+  
+
+}
+
+
+
+ } 
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+
+
+}
+ 
+/* Custom viewport */ 
+@media (max-width: 990px) {
+	#home-wrap .featured-wrap img {
+		height: auto !imporant;
+	}
+	
+	#home-wrap .featured-wrap-inner-left {
+		float: none !important;
+		width: 100% !important;
+	}
+	
+	#home-wrap .featured-wrap-inner-right {
+		float: none !important;
+		width: 100% !important;	
+	}
+
+	.banner-img{
+		min-height: 320px !important;
+		margin-top: 0 !important;			
+	}
+	#special-container {
+		display: none;
+	}
+	#menu-item-special {
+		display: none;
+	}
+	.main-nav ul.navbar-nav li a {
+		float: none !important;
+		width: 100% !important;
+		text-align: center !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	#cortex-wrap .col-fluid-three-two > div {
+		/* background-color: #009933 !important;	DEBUGGER */
+		width: 50% !important;	
+		float: left !important;
+	}
+	#cortex-wrap .col-fluid-four-two > div {
+		width: 50% !important;	
+	}	
+		#cortex-wrap .col-fluid-four-two .pad-top {
+			padding-top: 25px !important;	
+		}		
+		#restaurant #hours-note { 
+			margin-top: -15px !important;
+			padding-top: 0 !important;			
+		}		
+		#restaurant .rest-circle {
+			display: none !important;
+		}
+		#restaurant .price-note {
+			margin-top: 25px;
+		}		
+		#location-de-salles .button-controls button {
+			margin-bottom: 15px !important;
+		}
+
+	#surveiller .top-spacer {
+		display: none !important;
+	}			
+	#surveiller .pad-top-full {
+		padding-top: 0 !important;
+	}	
+			
+	#surveiller .col-md-6 {
+		width: 100% !important;	
+		float: left !important;
+	}					
+	.navbar-collapse {
+		padding-left: 0 !important;	
+		padding-right: 0 !important;	
+	}
+	.navbar-collapse > ul {
+		margin: 0 !important;		
+	}
+	.main-nav ul.navbar-nav li{
+		width: 100% !important;	
+		float: left !important;
+	}	
+	.visible-desktop {
+		display: none !important;
+	}
+	#location-de-salles .button-controls button, #banquets .button-controls button {
+		width: 100% !important;	
+		min-width: 0 !important;
+	}	
+	
+	.a-propos .pad-top-right {	
+		padding-right: 0 !important;		
+	}
+	
+	.a-propos .fondation-spacer {
+		display: none !important;
+	}	
+	
+	.nos-donateurs .second-col {
+		margin-top: -10px !important;
+	}	
+	
+	.banner .logo{
+		
+		left:51% !important; 
+		
+
+
+}
+	
+
+	
+	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#home-wrap {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	
+	.banner .logo{
+
+		left: 50% !important;
+	
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	#home-wrap {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	#home-wrap .featured-wrap img {
+		height: auto !imporant;
+	}
+	
+	#home-wrap .featured-wrap-inner-left {
+		float: none !important;
+		width: 100% !important;
+	}
+	
+	#home-wrap .featured-wrap-inner-right {
+		float: none !important;
+		width: 100% !important;	
+	}
+
+
+	#special-container {
+		display: none;
+	}
+	#menu-item-special {
+		display: none;
+	}
+	
+	.partners {
+		height: auto !important;
+	}
+	
+	#cortex-wrap .col-fluid-three-two > div {
+		/*background-color: #000 !important; DEBUGGER */	
+		width: 100% !important;	
+		float: left !important;	
+	}
+	#cortex-wrap .lg-img img {	
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	#cortex-wrap .col-fluid-four-two > div {
+		width: 100% !important;	
+	}			
+	#cortex-wrap .pad-top {
+		padding-top: 15px !important;	
+	}	
+	#cortex-wrap .pad-top-right {
+		padding-top: 15px !important;	
+		padding-right: 0 !important;	
+	}		
+		#restaurant #hours-note { 
+			margin-top: 10px !important;
+		}
+	#cortex-wrap .pad-top-extra {
+		padding-top: 0 !important;
+	}	
+
+	#cortex-wrap .margin-bottom {
+		margin-bottom: 50px !important;
+	}	
+			
+	#surveiller .top-spacer {
+		display: none !important;
+	}			
+	#surveiller .pad-top-full {
+		padding-top: 0 !important;
+	}			
+			
+	#surveiller .col-md-6 {
+		width: 100% !important;	
+		float: left !important;
+	}
+	.navbar-collapse {
+		padding-left: 0 !important;	
+		padding-right: 0 !important;	
+	}
+	.navbar-collapse > ul {
+		margin: 0 !important;		
+	}
+	.main-nav ul.navbar-nav li{
+		width: 100% !important;	
+		float: left !important;
+	}
+	footer {
+		margin-top: 50px !important;
+	}
+	.visible-desktop {
+		display: none !important;
+	}	
+	
+	#contacteznous img {
+		/* display: none !important; */
+	}
+	
+	#map-canvas {
+		top: 400px !important;
+	}
+	
+	.contactbox{
+		width: 100% !important;	
+	}
+		.contactbox h3 {
+			font-size: 1.2em !important;
+		}	
+	#location-de-salles .button-controls button, #banquets .button-controls button {
+		width: 100% !important;	
+		min-width: 0 !important;
+	}
+	
+	.a-propos .fondation-spacer {
+		display: none !important;
+	}
+	
+	.nos-donateurs .second-col {
+		margin-top: -10px !important;
+	}	
+	
+	/* fair un don footer button fix */
+	#logements-communataires, #milieu-de-vie {
+		padding-bottom: 75px;  
+		margin-bottom: -50px;
+	}
+	.nos-donateurs  {
+		padding-bottom: 0px;  
+		margin-bottom: -50px;
+		
+	}
+	
+	.pad-left50 {
+		padding-left: 0px;
+	}
+		
+}
+
+/* IE > 10 hack */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+	.banner-menu li a {
+		padding-left: 1.9em !important;
+		padding-right: 1.9em !important;		
+	}
+	.banner-menu li:last-child a {
+		/*
+		padding-left: 1.8em !important;
+		padding-right: 1.8em !important;					
+		*/
+	}	
+}
+

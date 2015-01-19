@@ -1,0 +1,331 @@
+@import url("../lib/foundation-custom/css/foundation.css");
+
+@import url("../lib/bootstrap/css/bootstrap.css"); 
+
+
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+
+	background-color:#9e907d;
+
+}
+
+.navbar-inverse .navbar-toggle{
+
+	border-color:#9e907d;
+
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+
+	background-color:#9e907d;
+
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar{
+
+	background-color:#fff;
+
+}
+
+.jumbotron
+
+{
+
+	margin-bottom: 0px;
+
+}
+
+
+
+
+
+@media (max-width: 480px){
+
+	/*.banner{
+
+		display:none;
+
+	}*/
+
+	/*
+
+	#map-canvas{
+
+		display:none;
+
+	}
+
+	*/
+
+}
+
+
+
+@media (min-width: 768px){
+
+	.banner .logo{
+
+		margin-top:-150px;
+
+	}
+
+	.banner-menu{
+
+		/*display: none;*/
+
+	}
+
+	.banner-menu {
+
+		width: 720px;
+
+		left:50%;
+
+		margin-left:-360px;
+
+	}
+
+	.banner-menu ul{
+
+		padding-right: 15px;
+
+		padding-left: 15px;
+
+	}
+
+	.banner-menu ul li a{
+
+		font-size: 14px !important;
+
+		line-height:20px !important;
+
+	}
+
+	span.hidden-desktop {
+
+		display: none !important;
+
+	}
+
+
+
+}
+
+@media (max-width: 768px){
+
+	.dividercol{
+
+		border-right:none !important;
+
+	}
+
+	.circle120{
+
+		display:none;
+
+	}
+
+	.banner .logo{
+
+		margin-top:-100px;
+
+	}
+
+	.col{
+
+		display:block !important;
+
+	}
+
+	.col1of2{
+
+		width:100% !important;
+
+		float:none !important;
+
+		display:block !important;
+
+	}
+
+	.col2of2{
+
+		width:100% !important;
+
+		float:none !important;
+
+		display:block !important;
+
+	}	
+
+	#notreequipe{
+
+		background:url(../images/notre-equipe-bg.png) repeat 0 -30px !important;
+
+	}
+
+	
+
+	#map-canvas{
+
+		height: 500px !important;
+
+	}
+
+}
+
+
+
+@media (min-width: 992px){
+
+	.banner-menu{
+
+		display: block;
+
+		width: 970px;
+
+		left:50%;
+
+		margin-left:-485px;
+
+	}
+
+	.banner-menu-slct{
+
+		display: none;
+
+	}
+
+	.banner-menu ul{
+
+		padding-right: 15px;
+
+		padding-left: 15px;
+
+	}
+
+}
+
+@media (max-width: 992px){
+
+	.banner-menu ul li a{
+
+		font-size:14px !important;
+
+	}
+
+	.banner-menu{
+
+		display: none;
+
+	}
+
+	.banner-menu-slct{
+
+		display: block;
+
+	}
+
+	.logo{
+
+		margin-top:-100px !important;
+
+	}
+
+	.banner .logo{
+
+		margin-left:-100px !important;
+
+	}
+
+	.banner .logo-slogan{
+
+		display:none;
+
+		margin-left:-100px;
+
+	}
+
+}
+
+
+
+
+
+@media (min-width: 993px){
+
+	#home_logo{
+
+		height:170px;
+
+	}
+
+	.banner .logo{
+
+		top: 52% !important;
+		
+	}
+
+}
+
+@media (min-width: 1200px){
+
+	#home_logo{
+
+		height:180px;
+
+	}
+
+	.banner .logo{
+
+		top: 52% !important;
+		
+		
+
+	}
+
+}
+
+@media (min-width: 1200px){
+
+	.banner-menu{
+
+		display: block;
+
+	}
+
+	.banner-menu {
+
+		width: 1140px;
+
+		left:50%;
+
+		margin-left:-570px;
+
+	}
+
+	.banner-menu ul{
+
+		padding-right: 15px;
+
+		padding-left: 15px;
+
+	}
+
+	.contactbox-wrapper{
+
+		margin-right: 15px;
+
+		margin-left: 15px ;
+
+	}
+
+	
+
+	span.hidden-desktop {
+
+		display: none !important;
+
+	}
+
+}
